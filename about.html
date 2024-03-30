@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="syle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="navlinke" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+         <h1>About Us</h1> 
+    </section>     
+      
+      
+
+<section class="about-us">
+    <div class="row1">
+        <div class="about-col">
+            <h1>We are the world's largest university</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam dignissimos quod consequatur veniam ut voluptate ratione expedita voluptates, fugiat explicabo debitis officiis inventore! Ullam dolor, ea praesentium eaque laudantium molestiae!</p>
+            <a href="" class="txtbtn btnn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="about.jpg" alt="">
+         </div>
+     </div>
+</section>        
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur adipisci facilis, voluptate corporis <br>sit reprehenderit nam cupiditate delectus tempore.
+    </p>
+    <div class="icons">
+                    <a href="https://www.facebook.com"> <i class="fa fa-facebook"></i></a>
+                    <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.instagram.com"> <i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p>Follow us for more</p>    
+ </section>
+ 
+
+
+<script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu(){
+        navlinks.style.right="0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+</script>    
+</body>
+</html>  

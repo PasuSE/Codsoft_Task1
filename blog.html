@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="syle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="navlinke" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       
+          
+        <h1>Our Certificate & Online Programs For 2024</h1>  
+
+    </section>
+    <section class="blog">
+        <div class="row1">
+            <div class="blog-left">
+               <img src="certificate.jpg" alt="">
+               <h1>Our Certificate & Online Programs For 2024</h1>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem id odio dignissimos repellat harum vitae doloremque, quo odit adipisci optio sapiente totam dolorem doloribus. Nesciunt temporibus rem officia assumenda ducimus beatae sequi illo quam voluptate tempore nam, consequuntur eum ut nihil, voluptates corporis minus. Blanditiis quod voluptate, beatae voluptatibus eos in! Eveniet qui mollitia ratione voluptates magni exercitationem esse vel animi aliquam! Quasi consequatur labore maxime magni velit qui et quidem. Rem labore officiis facere ex numquam atque repellat modi incidunt harum, similique deserunt iure molestias accusantium repudiandae soluta cumque aut neque nobis tenetur reprehenderit corporis nesciunt exercitationem unde mollitia?</p>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum placeat possimus debitis dolore assumenda? Culpa consequatur distinctio placeat et accusantium facilis ad accusamus, minima, mollitia, iure nobis blanditiis. Animi eum saepe pariatur! Consequuntur placeat cum nihil, saepe doloribus error in qui numquam provident eos laboriosam ex, corporis, excepturi fugit illum!</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem id odio dignissimos repellat harum vitae doloremque, quo odit adipisci optio sapiente totam dolorem doloribus. Nesciunt temporibus rem officia assumenda ducimus beatae sequi illo quam voluptate tempore nam, consequuntur eum ut nihil, voluptates corporis minus. Blanditiis quod voluptate, beatae voluptatibus eos in!<br> Eveniet qui mollitia ratione voluptates magni exercitationem esse vel animi aliquam! Quasi consequatur labore maxime magni velit qui et quidem. Rem labore officiis facere ex numquam atque repellat modi incidunt harum, similique deserunt iure molestias accusantium repudiandae soluta cumque aut neque nobis tenetur reprehenderit corporis nesciunt exercitationem unde mollitia?</p>
+               <div class="form">
+                <h3>Leave Your Comment</h3>
+                <form class="comment">
+                  <input type="text" placeholder="Enter name">
+                  <input type="email" placeholder="Enter email">
+                  <textarea rows="3" placeholder="Your Comments..."></textarea>
+                  <button type="submit" class="txtbtn btnn">Submit</button>
+                </form>
+              </div>
+            </div>
+           
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur adipisci facilis, voluptate corporis <br>sit reprehenderit nam cupiditate delectus tempore.
+        </p>
+        <div class="icons">
+                        <a href="https://www.facebook.com"> <i class="fa fa-facebook"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"> <i class="fa fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Follow us for more</p>    
+     </section>
+    
+    
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>    
+    </body>
+    </html>
